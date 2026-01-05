@@ -10,9 +10,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" })
 
 export const metadata: Metadata = {
-  title: "Generator Dashboard",
-  description: "Access all your generator tools in one place",
-  generator: "v0.app",
+  title: "Lexar Bypasser",
+  description: "Lexar Bypasser - Access your tools in one place",
   icons: {
     icon: [
       {
@@ -30,6 +29,7 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
